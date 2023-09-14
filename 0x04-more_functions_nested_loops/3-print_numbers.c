@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_numbers - prints the numbers
@@ -6,10 +7,10 @@ void print_numbers(void)
 {
 	int n;
 
-	for (n = 0; n <= 9; n++)
+	for (n = 48; n <= 58; n++)
 	{
-		_putchar(n + '0');
+		putchar(n);
 	}
-	_putchar('\n');
+	putchar(10);
 }
 
